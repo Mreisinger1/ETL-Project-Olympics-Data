@@ -29,7 +29,7 @@ CREATE TABLE "country_data" (
     "country" varchar   NOT NULL,
     "year" int   NOT NULL,
     "gdp" float   NOT NULL,
-    "population" int   NOT NULL,
+    "population" bigint   NOT NULL,
     CONSTRAINT "pk_country_data" PRIMARY KEY (
         "country","year"
      )
