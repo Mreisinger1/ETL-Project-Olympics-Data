@@ -36,3 +36,4 @@ This project uses PostgreSQL.
  1. Verify and update as needed the `username` `port` and `password` in the `LOAD` section of the notebook to match PostgreSQL.
  1. Run the notebook.
 
+**Note:** Not all countries are represented equally in population, gdp and olympic data files. 
