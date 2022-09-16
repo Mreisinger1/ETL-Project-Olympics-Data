@@ -38,6 +38,4 @@ CREATE TABLE "country_data" (
 ALTER TABLE "olympic_data" ADD CONSTRAINT "fk_olympic_data_athlete_id" FOREIGN KEY("athlete_id")
 REFERENCES "athlete_data" ("athlete_id");
 
-ALTER TABLE "olympic_data" ADD CONSTRAINT "fk_olympic_data_year_country" FOREIGN KEY("year", "country")
-REFERENCES "country_data" ("year", "country");
 
