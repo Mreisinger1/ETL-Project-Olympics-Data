@@ -24,14 +24,16 @@ World GDP: 269 KB
 Description: CSV containing the GDP for all countries from 1960 through 2021.
 
 
-This project uses PostgreSQL.
+This project uses PostgreSQL with the following scema:
+
+![alt text](olympic_db_diagram.png)
 
 # Instructions to recreate the database
 
  1. Clone the Repo https://github.com/Mreisinger1/ETL-Project-Olympics-Data
  1. Open PGAdmin PostgreSQL
  1. Create a new database named ``olympic_db``.
- 1. Drop in the ``olympic_DB_Table_Create.sql`` file in and run it to create the tables.
+ 1. Use the ``olympic_DB_Table_Create.sql`` file to create the tables.
  1. Run ``jupyter notebook`` and open ``Olympic_ETL.ipynb``.
  1. Verify and update as needed the `username` `port` and `password` in the `LOAD` section of the notebook to match PostgreSQL.
  1. Run the notebook.
